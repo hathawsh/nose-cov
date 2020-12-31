@@ -212,3 +212,9 @@ Jason Pellerin for nose.
 Michael Foord for unittest2.
 
 No doubt others have contributed to these tools as well.
+
+
+SDH branch
+----------
+
+Added support for "null" reports; useful when all we want to do is generate a .coverage file.

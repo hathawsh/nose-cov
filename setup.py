@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(name='nose-cov',
-                 version='1.6',
+                 version='1.6.1',
                  description='nose plugin for coverage reporting, including subprocesses and multiprocessing',
                  long_description=open('README.txt').read().strip(),
                  author='Meme Dough',

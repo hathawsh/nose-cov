@@ -52,9 +52,9 @@ class Cov(Plugin):
                           help=('Measure coverage for filesystem path '
                                 '[NOSE_COV]'))
         parser.add_option(ReportOption('--cov-report', action='append', default=env.get('NOSE_COV_REPORT', []), metavar='TYPE',
-                          choices=['term', 'term-missing', 'annotate', 'html', 'xml'],
+                          choices=['term', 'term-missing', 'annotate', 'html', 'xml', 'null'],
                           dest='cov_report',
-                          help=('Generate selected reports, available types: term, term-missing, annotate, html, xml '
+                          help=('Generate selected reports, available types: term, term-missing, annotate, html, xml, null '
                                 '[NOSE_COV_REPORT]')))
         parser.add_option('--cov-config', action='store', default=env.get('NOSE_COV_CONFIG', '.coveragerc'), metavar='FILE',
                           dest='cov_config',
